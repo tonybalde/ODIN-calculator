@@ -1,0 +1,119 @@
+body{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer{
+    text-align: center;
+}
+
+
+.main-container{
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #222;
+    width: 450px;
+    height: 560px;
+    border-radius: 15px;
+    background-color: rgb(104, 104, 105);
+}
+
+.main-screen{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 120px;
+    color: #222;
+}
+
+.operations{
+    border: 1px solid red;
+    text-align: right;
+    margin-right: 4px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.numbers{
+    border: 1px solid green;
+    text-align: right;
+    margin-right: 4px;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.btns{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.btn_clear_delete{
+    width: 215px;
+    height: 50px;
+    font-size: 38px;
+    font-weight: 700;
+    border-radius: 15px;
+    border: none;
+}
+
+.btn_clear_delete:hover{
+    border: 2px solid #222;
+}
+
+.btn_clear_delete:active{
+    background-color: #111;
+    color:#fff;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 5px 0 5px;
+}
+
+.keypad{
+    width: 100px;
+    height: 80px;
+    font-size: 24px;
+    border-radius: 15px;
+    border: none;
+    transition: .1s;
+}
+
+.keypad:hover{
+    border: 2px solid #222;
+}
+
+.keypad:active{
+    background-color: #111;
+    color:#fff;
+}
+
+.operators{
+    font-size: 62px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.github_logo{
+    height: 24px;
+    transition: .5s ease;
+}
+
+.github_logo:hover{
+    transform: rotate(360deg);
+}
